@@ -2,6 +2,8 @@
 
 Renders player skins as avatar image.
 
+Based on https://github.com/JNNGL/vanilla-shaders/tree/main/gui_avatars
+
 ## Text Placeholder:
 `%avatar-renderer:avatar <player-name> <offset> <flipped>%`
 
