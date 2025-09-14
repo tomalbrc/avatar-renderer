@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "de.tomalbrc.avatarRenderer.mixin",
+  "package": "de.tomalbrc.avatarrenderer.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "PlayerListMixin"
   ],
   "client": [
   ],

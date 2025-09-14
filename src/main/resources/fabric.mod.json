@@ -7,11 +7,11 @@
   "authors": [],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/avatar-renderer/icon.png",
-  "environment": "server",
+  "icon": "ar-icon.png",
+  "environment": "*",
   "entrypoints": {
     "main": [
-      "de.tomalbrc.avatarRenderer.AvatarRenderer"
+      "de.tomalbrc.avatarrenderer.AvatarRendererMod"
     ]
   },
   "mixins": [

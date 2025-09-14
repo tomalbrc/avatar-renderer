@@ -1,4 +1,4 @@
-package de.tomalbrc.avatarrenderer;
+package de.tomalbrc.avatarrenderer.impl;
 
 public class Color {
     float r, g, b, a;

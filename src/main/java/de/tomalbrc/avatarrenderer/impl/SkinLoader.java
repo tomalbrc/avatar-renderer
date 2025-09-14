@@ -1,4 +1,4 @@
-package de.tomalbrc.avatarrenderer;
+package de.tomalbrc.avatarrenderer.impl;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -14,38 +14,44 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Base64;
+import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class SkinLoader {
+    private static final Map<String, BufferedImage> SKINS = new ConcurrentHashMap<>();
+
     private static final Gson GSON = new Gson();
     private static final HttpClient CLIENT = HttpClient.newHttpClient();
 
     public static Optional<BufferedImage> load(String input) {
-        try {
-            UUID uuid = getUUIDFromUsername(input);
-            if (uuid == null) {
-                return Optional.empty();
-            }
+        return Optional.ofNullable(SKINS.computeIfAbsent(input, key -> {
+            try {
+                UUID uuid = getUUIDFromUsername(input);
+                if (uuid == null) {
+                    return null;
+                }
 
-            return load(uuid);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return Optional.empty();
-        }
+                return load(uuid);
+            } catch (Exception e) {
+                e.printStackTrace();
+                return null;
+            }
+        }));
     }
 
-    public static Optional<BufferedImage> load(UUID uuid) {
+    public static BufferedImage load(UUID uuid) {
         try {
             String skinUrl = getSkinUrlFromUUID(uuid);
             if (skinUrl == null) {
-                return Optional.empty();
+                return null;
             }
 
-            return Optional.ofNullable(downloadImage(skinUrl));
+            return downloadImage(skinUrl);
         } catch (Exception e) {
             e.printStackTrace();
-            return Optional.empty();
+            return null;
         }
     }
 

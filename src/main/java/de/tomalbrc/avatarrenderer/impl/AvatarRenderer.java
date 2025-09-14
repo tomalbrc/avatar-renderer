@@ -1,4 +1,4 @@
-package de.tomalbrc.avatarrenderer;
+package de.tomalbrc.avatarrenderer.impl;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -42,7 +42,7 @@ public class AvatarRenderer {
                 line.append(" ".repeat(image.getWidth()));
         }
 
-        return Component.literal("      ").withStyle(Style.EMPTY).append(line.withStyle(style.withColor(ChatFormatting.WHITE)));
+        return Component.empty().withStyle(Style.EMPTY).append(line.withStyle(style.withColor(ChatFormatting.WHITE)));
     }
 
     public static BufferedImage render(BufferedImage skin, boolean flipped) {
