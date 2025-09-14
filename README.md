@@ -11,3 +11,5 @@ Example:
 `%avatar-renderer:avatar Pinnit%`
 `%avatar-renderer:avatar Pinnit 0%`
 `%avatar-renderer:avatar Pinnit 0 flipped%`
+
+![skin](./example.png)
