@@ -1,0 +1,2621 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": -1,
+        ".": 1
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 33,
+      "height": 34,
+      "chars": [
+        "\\uE001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 32,
+      "height": 34,
+      "chars": [
+        "\\uE002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 31,
+      "height": 34,
+      "chars": [
+        "\\uE003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 30,
+      "height": 34,
+      "chars": [
+        "\\uE004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 29,
+      "height": 34,
+      "chars": [
+        "\\uE005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 28,
+      "height": 34,
+      "chars": [
+        "\\uE006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 27,
+      "height": 34,
+      "chars": [
+        "\\uE007"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 26,
+      "height": 34,
+      "chars": [
+        "\\uE008"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 25,
+      "height": 34,
+      "chars": [
+        "\\uE009"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 24,
+      "height": 34,
+      "chars": [
+        "\\uE00A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 23,
+      "height": 34,
+      "chars": [
+        "\\uE00B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 22,
+      "height": 34,
+      "chars": [
+        "\\uE00C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 21,
+      "height": 34,
+      "chars": [
+        "\\uE00D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 20,
+      "height": 34,
+      "chars": [
+        "\\uE00E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 19,
+      "height": 34,
+      "chars": [
+        "\\uE00F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 18,
+      "height": 34,
+      "chars": [
+        "\\uE010"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 17,
+      "height": 34,
+      "chars": [
+        "\\uE011"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 16,
+      "height": 34,
+      "chars": [
+        "\\uE012"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 15,
+      "height": 34,
+      "chars": [
+        "\\uE013"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 14,
+      "height": 34,
+      "chars": [
+        "\\uE014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 13,
+      "height": 34,
+      "chars": [
+        "\\uE015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 12,
+      "height": 34,
+      "chars": [
+        "\\uE016"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 11,
+      "height": 34,
+      "chars": [
+        "\\uE017"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 10,
+      "height": 34,
+      "chars": [
+        "\\uE018"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 9,
+      "height": 34,
+      "chars": [
+        "\\uE019"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 8,
+      "height": 34,
+      "chars": [
+        "\\uE01A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 7,
+      "height": 34,
+      "chars": [
+        "\\uE01B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 6,
+      "height": 34,
+      "chars": [
+        "\\uE01C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 5,
+      "height": 34,
+      "chars": [
+        "\\uE01D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 4,
+      "height": 34,
+      "chars": [
+        "\\uE01E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 3,
+      "height": 34,
+      "chars": [
+        "\\uE01F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 2,
+      "height": 34,
+      "chars": [
+        "\\uE020"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 1,
+      "height": 34,
+      "chars": [
+        "\\uE021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": 0,
+      "height": 34,
+      "chars": [
+        "\\uE022"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -1,
+      "height": 34,
+      "chars": [
+        "\\uE023"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -2,
+      "height": 34,
+      "chars": [
+        "\\uE024"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -3,
+      "height": 34,
+      "chars": [
+        "\\uE025"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -4,
+      "height": 34,
+      "chars": [
+        "\\uE026"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -5,
+      "height": 34,
+      "chars": [
+        "\\uE027"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -6,
+      "height": 34,
+      "chars": [
+        "\\uE028"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -7,
+      "height": 34,
+      "chars": [
+        "\\uE029"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -8,
+      "height": 34,
+      "chars": [
+        "\\uE02A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -9,
+      "height": 34,
+      "chars": [
+        "\\uE02B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -10,
+      "height": 34,
+      "chars": [
+        "\\uE02C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -11,
+      "height": 34,
+      "chars": [
+        "\\uE02D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -12,
+      "height": 34,
+      "chars": [
+        "\\uE02E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -13,
+      "height": 34,
+      "chars": [
+        "\\uE02F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -14,
+      "height": 34,
+      "chars": [
+        "\\uE030"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -15,
+      "height": 34,
+      "chars": [
+        "\\uE031"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -16,
+      "height": 34,
+      "chars": [
+        "\\uE032"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -17,
+      "height": 34,
+      "chars": [
+        "\\uE033"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -18,
+      "height": 34,
+      "chars": [
+        "\\uE034"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -19,
+      "height": 34,
+      "chars": [
+        "\\uE035"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -20,
+      "height": 34,
+      "chars": [
+        "\\uE036"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -21,
+      "height": 34,
+      "chars": [
+        "\\uE037"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -22,
+      "height": 34,
+      "chars": [
+        "\\uE038"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -23,
+      "height": 34,
+      "chars": [
+        "\\uE039"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -24,
+      "height": 34,
+      "chars": [
+        "\\uE03A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -25,
+      "height": 34,
+      "chars": [
+        "\\uE03B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -26,
+      "height": 34,
+      "chars": [
+        "\\uE03C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -27,
+      "height": 34,
+      "chars": [
+        "\\uE03D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -28,
+      "height": 34,
+      "chars": [
+        "\\uE03E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -29,
+      "height": 34,
+      "chars": [
+        "\\uE03F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -30,
+      "height": 34,
+      "chars": [
+        "\\uE040"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -31,
+      "height": 34,
+      "chars": [
+        "\\uE041"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -32,
+      "height": 34,
+      "chars": [
+        "\\uE042"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -33,
+      "height": 34,
+      "chars": [
+        "\\uE043"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -34,
+      "height": 34,
+      "chars": [
+        "\\uE044"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -35,
+      "height": 34,
+      "chars": [
+        "\\uE045"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -36,
+      "height": 34,
+      "chars": [
+        "\\uE046"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -37,
+      "height": 34,
+      "chars": [
+        "\\uE047"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -38,
+      "height": 34,
+      "chars": [
+        "\\uE048"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -39,
+      "height": 34,
+      "chars": [
+        "\\uE049"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -40,
+      "height": 34,
+      "chars": [
+        "\\uE04A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -41,
+      "height": 34,
+      "chars": [
+        "\\uE04B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -42,
+      "height": 34,
+      "chars": [
+        "\\uE04C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -43,
+      "height": 34,
+      "chars": [
+        "\\uE04D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -44,
+      "height": 34,
+      "chars": [
+        "\\uE04E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -45,
+      "height": 34,
+      "chars": [
+        "\\uE04F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -46,
+      "height": 34,
+      "chars": [
+        "\\uE050"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -47,
+      "height": 34,
+      "chars": [
+        "\\uE051"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -48,
+      "height": 34,
+      "chars": [
+        "\\uE052"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -49,
+      "height": 34,
+      "chars": [
+        "\\uE053"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -50,
+      "height": 34,
+      "chars": [
+        "\\uE054"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -51,
+      "height": 34,
+      "chars": [
+        "\\uE055"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -52,
+      "height": 34,
+      "chars": [
+        "\\uE056"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -53,
+      "height": 34,
+      "chars": [
+        "\\uE057"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -54,
+      "height": 34,
+      "chars": [
+        "\\uE058"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -55,
+      "height": 34,
+      "chars": [
+        "\\uE059"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -56,
+      "height": 34,
+      "chars": [
+        "\\uE05A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -57,
+      "height": 34,
+      "chars": [
+        "\\uE05B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -58,
+      "height": 34,
+      "chars": [
+        "\\uE05C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -59,
+      "height": 34,
+      "chars": [
+        "\\uE05D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -60,
+      "height": 34,
+      "chars": [
+        "\\uE05E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -61,
+      "height": 34,
+      "chars": [
+        "\\uE05F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -62,
+      "height": 34,
+      "chars": [
+        "\\uE060"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -63,
+      "height": 34,
+      "chars": [
+        "\\uE061"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -64,
+      "height": 34,
+      "chars": [
+        "\\uE062"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -65,
+      "height": 34,
+      "chars": [
+        "\\uE063"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -66,
+      "height": 34,
+      "chars": [
+        "\\uE064"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -67,
+      "height": 34,
+      "chars": [
+        "\\uE065"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -68,
+      "height": 34,
+      "chars": [
+        "\\uE066"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -69,
+      "height": 34,
+      "chars": [
+        "\\uE067"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -70,
+      "height": 34,
+      "chars": [
+        "\\uE068"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -71,
+      "height": 34,
+      "chars": [
+        "\\uE069"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -72,
+      "height": 34,
+      "chars": [
+        "\\uE06A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -73,
+      "height": 34,
+      "chars": [
+        "\\uE06B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -74,
+      "height": 34,
+      "chars": [
+        "\\uE06C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -75,
+      "height": 34,
+      "chars": [
+        "\\uE06D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -76,
+      "height": 34,
+      "chars": [
+        "\\uE06E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -77,
+      "height": 34,
+      "chars": [
+        "\\uE06F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -78,
+      "height": 34,
+      "chars": [
+        "\\uE070"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -79,
+      "height": 34,
+      "chars": [
+        "\\uE071"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -80,
+      "height": 34,
+      "chars": [
+        "\\uE072"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -81,
+      "height": 34,
+      "chars": [
+        "\\uE073"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -82,
+      "height": 34,
+      "chars": [
+        "\\uE074"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -83,
+      "height": 34,
+      "chars": [
+        "\\uE075"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -84,
+      "height": 34,
+      "chars": [
+        "\\uE076"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -85,
+      "height": 34,
+      "chars": [
+        "\\uE077"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -86,
+      "height": 34,
+      "chars": [
+        "\\uE078"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -87,
+      "height": 34,
+      "chars": [
+        "\\uE079"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -88,
+      "height": 34,
+      "chars": [
+        "\\uE07A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -89,
+      "height": 34,
+      "chars": [
+        "\\uE07B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -90,
+      "height": 34,
+      "chars": [
+        "\\uE07C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -91,
+      "height": 34,
+      "chars": [
+        "\\uE07D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -92,
+      "height": 34,
+      "chars": [
+        "\\uE07E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -93,
+      "height": 34,
+      "chars": [
+        "\\uE07F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -94,
+      "height": 34,
+      "chars": [
+        "\\uE080"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -95,
+      "height": 34,
+      "chars": [
+        "\\uE081"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -96,
+      "height": 34,
+      "chars": [
+        "\\uE082"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -97,
+      "height": 34,
+      "chars": [
+        "\\uE083"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -98,
+      "height": 34,
+      "chars": [
+        "\\uE084"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -99,
+      "height": 34,
+      "chars": [
+        "\\uE085"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -100,
+      "height": 34,
+      "chars": [
+        "\\uE086"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -101,
+      "height": 34,
+      "chars": [
+        "\\uE087"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -102,
+      "height": 34,
+      "chars": [
+        "\\uE088"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -103,
+      "height": 34,
+      "chars": [
+        "\\uE089"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -104,
+      "height": 34,
+      "chars": [
+        "\\uE08A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -105,
+      "height": 34,
+      "chars": [
+        "\\uE08B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -106,
+      "height": 34,
+      "chars": [
+        "\\uE08C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -107,
+      "height": 34,
+      "chars": [
+        "\\uE08D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -108,
+      "height": 34,
+      "chars": [
+        "\\uE08E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -109,
+      "height": 34,
+      "chars": [
+        "\\uE08F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -110,
+      "height": 34,
+      "chars": [
+        "\\uE090"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -111,
+      "height": 34,
+      "chars": [
+        "\\uE091"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -112,
+      "height": 34,
+      "chars": [
+        "\\uE092"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -113,
+      "height": 34,
+      "chars": [
+        "\\uE093"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -114,
+      "height": 34,
+      "chars": [
+        "\\uE094"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -115,
+      "height": 34,
+      "chars": [
+        "\\uE095"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -116,
+      "height": 34,
+      "chars": [
+        "\\uE096"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -117,
+      "height": 34,
+      "chars": [
+        "\\uE097"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -118,
+      "height": 34,
+      "chars": [
+        "\\uE098"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -119,
+      "height": 34,
+      "chars": [
+        "\\uE099"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -120,
+      "height": 34,
+      "chars": [
+        "\\uE09A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -121,
+      "height": 34,
+      "chars": [
+        "\\uE09B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -122,
+      "height": 34,
+      "chars": [
+        "\\uE09C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -123,
+      "height": 34,
+      "chars": [
+        "\\uE09D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -124,
+      "height": 34,
+      "chars": [
+        "\\uE09E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -125,
+      "height": 34,
+      "chars": [
+        "\\uE09F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -126,
+      "height": 34,
+      "chars": [
+        "\\uE0A0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -127,
+      "height": 34,
+      "chars": [
+        "\\uE0A1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -128,
+      "height": 34,
+      "chars": [
+        "\\uE0A2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -129,
+      "height": 34,
+      "chars": [
+        "\\uE0A3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -130,
+      "height": 34,
+      "chars": [
+        "\\uE0A4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -131,
+      "height": 34,
+      "chars": [
+        "\\uE0A5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -132,
+      "height": 34,
+      "chars": [
+        "\\uE0A6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -133,
+      "height": 34,
+      "chars": [
+        "\\uE0A7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -134,
+      "height": 34,
+      "chars": [
+        "\\uE0A8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -135,
+      "height": 34,
+      "chars": [
+        "\\uE0A9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -136,
+      "height": 34,
+      "chars": [
+        "\\uE0AA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -137,
+      "height": 34,
+      "chars": [
+        "\\uE0AB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -138,
+      "height": 34,
+      "chars": [
+        "\\uE0AC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -139,
+      "height": 34,
+      "chars": [
+        "\\uE0AD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -140,
+      "height": 34,
+      "chars": [
+        "\\uE0AE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -141,
+      "height": 34,
+      "chars": [
+        "\\uE0AF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -142,
+      "height": 34,
+      "chars": [
+        "\\uE0B0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -143,
+      "height": 34,
+      "chars": [
+        "\\uE0B1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -144,
+      "height": 34,
+      "chars": [
+        "\\uE0B2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -145,
+      "height": 34,
+      "chars": [
+        "\\uE0B3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -146,
+      "height": 34,
+      "chars": [
+        "\\uE0B4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -147,
+      "height": 34,
+      "chars": [
+        "\\uE0B5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -148,
+      "height": 34,
+      "chars": [
+        "\\uE0B6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -149,
+      "height": 34,
+      "chars": [
+        "\\uE0B7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -150,
+      "height": 34,
+      "chars": [
+        "\\uE0B8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -151,
+      "height": 34,
+      "chars": [
+        "\\uE0B9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -152,
+      "height": 34,
+      "chars": [
+        "\\uE0BA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -153,
+      "height": 34,
+      "chars": [
+        "\\uE0BB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -154,
+      "height": 34,
+      "chars": [
+        "\\uE0BC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -155,
+      "height": 34,
+      "chars": [
+        "\\uE0BD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -156,
+      "height": 34,
+      "chars": [
+        "\\uE0BE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -157,
+      "height": 34,
+      "chars": [
+        "\\uE0BF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -158,
+      "height": 34,
+      "chars": [
+        "\\uE0C0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -159,
+      "height": 34,
+      "chars": [
+        "\\uE0C1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -160,
+      "height": 34,
+      "chars": [
+        "\\uE0C2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -161,
+      "height": 34,
+      "chars": [
+        "\\uE0C3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -162,
+      "height": 34,
+      "chars": [
+        "\\uE0C4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -163,
+      "height": 34,
+      "chars": [
+        "\\uE0C5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -164,
+      "height": 34,
+      "chars": [
+        "\\uE0C6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -165,
+      "height": 34,
+      "chars": [
+        "\\uE0C7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -166,
+      "height": 34,
+      "chars": [
+        "\\uE0C8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -167,
+      "height": 34,
+      "chars": [
+        "\\uE0C9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -168,
+      "height": 34,
+      "chars": [
+        "\\uE0CA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -169,
+      "height": 34,
+      "chars": [
+        "\\uE0CB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -170,
+      "height": 34,
+      "chars": [
+        "\\uE0CC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -171,
+      "height": 34,
+      "chars": [
+        "\\uE0CD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -172,
+      "height": 34,
+      "chars": [
+        "\\uE0CE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -173,
+      "height": 34,
+      "chars": [
+        "\\uE0CF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -174,
+      "height": 34,
+      "chars": [
+        "\\uE0D0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -175,
+      "height": 34,
+      "chars": [
+        "\\uE0D1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -176,
+      "height": 34,
+      "chars": [
+        "\\uE0D2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -177,
+      "height": 34,
+      "chars": [
+        "\\uE0D3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -178,
+      "height": 34,
+      "chars": [
+        "\\uE0D4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -179,
+      "height": 34,
+      "chars": [
+        "\\uE0D5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -180,
+      "height": 34,
+      "chars": [
+        "\\uE0D6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -181,
+      "height": 34,
+      "chars": [
+        "\\uE0D7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -182,
+      "height": 34,
+      "chars": [
+        "\\uE0D8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -183,
+      "height": 34,
+      "chars": [
+        "\\uE0D9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -184,
+      "height": 34,
+      "chars": [
+        "\\uE0DA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -185,
+      "height": 34,
+      "chars": [
+        "\\uE0DB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -186,
+      "height": 34,
+      "chars": [
+        "\\uE0DC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -187,
+      "height": 34,
+      "chars": [
+        "\\uE0DD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -188,
+      "height": 34,
+      "chars": [
+        "\\uE0DE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -189,
+      "height": 34,
+      "chars": [
+        "\\uE0DF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -190,
+      "height": 34,
+      "chars": [
+        "\\uE0E0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -191,
+      "height": 34,
+      "chars": [
+        "\\uE0E1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -192,
+      "height": 34,
+      "chars": [
+        "\\uE0E2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -193,
+      "height": 34,
+      "chars": [
+        "\\uE0E3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -194,
+      "height": 34,
+      "chars": [
+        "\\uE0E4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -195,
+      "height": 34,
+      "chars": [
+        "\\uE0E5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -196,
+      "height": 34,
+      "chars": [
+        "\\uE0E6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -197,
+      "height": 34,
+      "chars": [
+        "\\uE0E7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -198,
+      "height": 34,
+      "chars": [
+        "\\uE0E8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -199,
+      "height": 34,
+      "chars": [
+        "\\uE0E9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -200,
+      "height": 34,
+      "chars": [
+        "\\uE0EA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -201,
+      "height": 34,
+      "chars": [
+        "\\uE0EB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -202,
+      "height": 34,
+      "chars": [
+        "\\uE0EC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -203,
+      "height": 34,
+      "chars": [
+        "\\uE0ED"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -204,
+      "height": 34,
+      "chars": [
+        "\\uE0EE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -205,
+      "height": 34,
+      "chars": [
+        "\\uE0EF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -206,
+      "height": 34,
+      "chars": [
+        "\\uE0F0"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -207,
+      "height": 34,
+      "chars": [
+        "\\uE0F1"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -208,
+      "height": 34,
+      "chars": [
+        "\\uE0F2"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -209,
+      "height": 34,
+      "chars": [
+        "\\uE0F3"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -210,
+      "height": 34,
+      "chars": [
+        "\\uE0F4"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -211,
+      "height": 34,
+      "chars": [
+        "\\uE0F5"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -212,
+      "height": 34,
+      "chars": [
+        "\\uE0F6"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -213,
+      "height": 34,
+      "chars": [
+        "\\uE0F7"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -214,
+      "height": 34,
+      "chars": [
+        "\\uE0F8"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -215,
+      "height": 34,
+      "chars": [
+        "\\uE0F9"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -216,
+      "height": 34,
+      "chars": [
+        "\\uE0FA"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -217,
+      "height": 34,
+      "chars": [
+        "\\uE0FB"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -218,
+      "height": 34,
+      "chars": [
+        "\\uE0FC"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -219,
+      "height": 34,
+      "chars": [
+        "\\uE0FD"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -220,
+      "height": 34,
+      "chars": [
+        "\\uE0FE"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -221,
+      "height": 34,
+      "chars": [
+        "\\uE0FF"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -222,
+      "height": 34,
+      "chars": [
+        "\\uE100"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -223,
+      "height": 34,
+      "chars": [
+        "\\uE101"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -224,
+      "height": 34,
+      "chars": [
+        "\\uE102"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -225,
+      "height": 34,
+      "chars": [
+        "\\uE103"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -226,
+      "height": 34,
+      "chars": [
+        "\\uE104"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -227,
+      "height": 34,
+      "chars": [
+        "\\uE105"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -228,
+      "height": 34,
+      "chars": [
+        "\\uE106"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -229,
+      "height": 34,
+      "chars": [
+        "\\uE107"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -230,
+      "height": 34,
+      "chars": [
+        "\\uE108"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -231,
+      "height": 34,
+      "chars": [
+        "\\uE109"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -232,
+      "height": 34,
+      "chars": [
+        "\\uE10A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -233,
+      "height": 34,
+      "chars": [
+        "\\uE10B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -234,
+      "height": 34,
+      "chars": [
+        "\\uE10C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -235,
+      "height": 34,
+      "chars": [
+        "\\uE10D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -236,
+      "height": 34,
+      "chars": [
+        "\\uE10E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -237,
+      "height": 34,
+      "chars": [
+        "\\uE10F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -238,
+      "height": 34,
+      "chars": [
+        "\\uE110"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -239,
+      "height": 34,
+      "chars": [
+        "\\uE111"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -240,
+      "height": 34,
+      "chars": [
+        "\\uE112"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -241,
+      "height": 34,
+      "chars": [
+        "\\uE113"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -242,
+      "height": 34,
+      "chars": [
+        "\\uE114"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -243,
+      "height": 34,
+      "chars": [
+        "\\uE115"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -244,
+      "height": 34,
+      "chars": [
+        "\\uE116"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -245,
+      "height": 34,
+      "chars": [
+        "\\uE117"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -246,
+      "height": 34,
+      "chars": [
+        "\\uE118"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -247,
+      "height": 34,
+      "chars": [
+        "\\uE119"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -248,
+      "height": 34,
+      "chars": [
+        "\\uE11A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -249,
+      "height": 34,
+      "chars": [
+        "\\uE11B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -250,
+      "height": 34,
+      "chars": [
+        "\\uE11C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -251,
+      "height": 34,
+      "chars": [
+        "\\uE11D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -252,
+      "height": 34,
+      "chars": [
+        "\\uE11E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -253,
+      "height": 34,
+      "chars": [
+        "\\uE11F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -254,
+      "height": 34,
+      "chars": [
+        "\\uE120"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -255,
+      "height": 34,
+      "chars": [
+        "\\uE121"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "avatar-renderer:font/pixel.png",
+      "ascent": -256,
+      "height": 34,
+      "chars": [
+        "\\uE122"
+      ]
+    }
+  ]
+}
