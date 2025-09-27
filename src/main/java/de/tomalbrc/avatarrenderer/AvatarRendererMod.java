@@ -36,7 +36,7 @@ public class AvatarRendererMod implements ModInitializer {
 
     public static Map<Key, Component> CACHED = new ConcurrentHashMap<>();
 
-    public static Component getNow(String nameOrUUID, int offset, boolean flipped, Consumer<Component> onFinish) {
+    public static Component getNow(String nameOrUUID, int offset, boolean flipped) {
         Key key = new Key(nameOrUUID, offset, flipped);
         if (CACHED.containsKey(key)) {
             return CACHED.get(key);
@@ -50,7 +50,7 @@ public class AvatarRendererMod implements ModInitializer {
         return null;
     }
 
-    public static Component computeNow(String nameOrUUID, int offset, boolean flipped, Consumer<Component> onFinish) {
+    public static Component computeNow(String nameOrUUID, int offset, boolean flipped) {
         Key key = new Key(nameOrUUID, offset, flipped);
         if (CACHED.containsKey(key)) {
             return CACHED.get(key);
@@ -71,7 +71,7 @@ public class AvatarRendererMod implements ModInitializer {
             }).exceptionally(ex -> {
                 Key defaultKey = new Key("Steve", offset, flipped);
                 if (CACHED.containsKey(defaultKey)) {
-                    if (onFinish != null) onFinish.accept(CACHED.get(defaultKey));
+                    return CACHED.get(defaultKey);
                 }
 
                 return null;
