@@ -11,6 +11,7 @@ import eu.pb4.placeholders.api.node.TextNode;
 import eu.pb4.polymer.resourcepack.api.PolymerResourcePackUtils;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -31,10 +32,52 @@ public class AvatarRendererMod implements ModInitializer {
     public static final String MODID = "avatar-renderer";
     public static Consumer<Component> NOOP = x->{};
 
-    public record Key(String name, int offset, boolean flipped) {
-    }
+    public record Key(String name, int offset, boolean flipped) { }
 
     public static Map<Key, Component> CACHED = new ConcurrentHashMap<>();
+
+    public static Component getNow(String nameOrUUID, int offset, boolean flipped, Consumer<Component> onFinish) {
+        Key key = new Key(nameOrUUID, offset, flipped);
+        if (CACHED.containsKey(key)) {
+            return CACHED.get(key);
+        }
+
+        Key defaultKey = new Key("Steve", offset, flipped);
+        if (CACHED.containsKey(defaultKey)) {
+            return CACHED.get(defaultKey);
+        }
+
+        return null;
+    }
+
+    public static Component computeNow(String nameOrUUID, int offset, boolean flipped, Consumer<Component> onFinish) {
+        Key key = new Key(nameOrUUID, offset, flipped);
+        if (CACHED.containsKey(key)) {
+            return CACHED.get(key);
+        } else {
+            return CompletableFuture.supplyAsync(() -> SkinLoader.load(nameOrUUID), EXECUTOR).thenApply(optionalImage -> {
+                if (optionalImage.isEmpty())
+                    return null;
+
+                var image = optionalImage.get();
+
+                BufferedImage avatar = AvatarRenderer.render(image, key.flipped);
+
+                Component asText = AvatarRenderer.asTextComponent(avatar, key.offset);
+
+                CACHED.put(key, asText);
+
+                return asText;
+            }).exceptionally(ex -> {
+                Key defaultKey = new Key("Steve", offset, flipped);
+                if (CACHED.containsKey(defaultKey)) {
+                    if (onFinish != null) onFinish.accept(CACHED.get(defaultKey));
+                }
+
+                return null;
+            }).getNow(null);
+        }
+    }
 
     public static void get(String nameOrUUID, int offset, boolean flipped, Consumer<Component> onFinish) {
         Key key = new Key(nameOrUUID, offset, flipped);
@@ -85,6 +128,15 @@ public class AvatarRendererMod implements ModInitializer {
         PolymerResourcePackUtils.addModAssets("avatar-renderer");
 
         addDefault();
+
+        ServerPlayConnectionEvents.JOIN.register((serverGamePacketListener, packetSender, minecraftServer) -> {
+            var name = serverGamePacketListener.player.getScoreboardName();
+            for (int i = 0; i < 256; i++) {
+                // hm we technically dont need to cache every offset
+                AvatarRendererMod.get(name, i, false, AvatarRendererMod.NOOP);
+                AvatarRendererMod.get(name, i, true, AvatarRendererMod.NOOP);
+            }
+        });
 
         Placeholders.register(ResourceLocation.fromNamespaceAndPath("avatar-renderer", "avatar"), (ctx, arg) -> {
             if (arg == null)
