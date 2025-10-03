@@ -2,6 +2,7 @@ package de.tomalbrc.avatarrenderer.impl;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.FontDescription;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
 import net.minecraft.resources.ResourceLocation;
@@ -14,6 +15,8 @@ import java.awt.image.BufferedImage;
  * @see <a href="https://github.com/JNNGL/vanilla-shaders">...</a>
  */
 public class AvatarRenderer {
+    public static FontDescription.Resource PIXEL_FONT = new FontDescription.Resource(ResourceLocation.fromNamespaceAndPath("avatar-renderer", "pixel"));
+
     private record Vec2(int x, int y) {
     }
 
@@ -25,7 +28,7 @@ public class AvatarRenderer {
     };
 
     public static Component asTextComponent(BufferedImage image, int yOffset) {
-        var style = Style.EMPTY.withShadowColor(0).withFont(ResourceLocation.fromNamespaceAndPath("avatar-renderer", "pixel"));
+        var style = Style.EMPTY.withShadowColor(0).withFont(PIXEL_FONT);
 
         MutableComponent line = Component.empty();
 
