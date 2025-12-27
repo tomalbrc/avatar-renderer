@@ -5,7 +5,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FontDescription;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 import java.awt.image.BufferedImage;
 
@@ -15,7 +15,7 @@ import java.awt.image.BufferedImage;
  * @see <a href="https://github.com/JNNGL/vanilla-shaders">...</a>
  */
 public class AvatarRenderer {
-    public static FontDescription.Resource PIXEL_FONT = new FontDescription.Resource(ResourceLocation.fromNamespaceAndPath("avatar-renderer", "pixel"));
+    public static FontDescription.Resource PIXEL_FONT = new FontDescription.Resource(Identifier.fromNamespaceAndPath("avatar-renderer", "pixel"));
 
     private record Vec2(int x, int y) {
     }

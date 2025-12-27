@@ -14,7 +14,9 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.permissions.Permission;
+import net.minecraft.server.permissions.PermissionLevel;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -138,7 +140,7 @@ public class AvatarRendererMod implements ModInitializer {
             }
         });
 
-        Placeholders.register(ResourceLocation.fromNamespaceAndPath("avatar-renderer", "avatar"), (ctx, arg) -> {
+        Placeholders.register(Identifier.fromNamespaceAndPath("avatar-renderer", "avatar"), (ctx, arg) -> {
             if (arg == null)
                 return PlaceholderResult.invalid();
 
@@ -158,7 +160,7 @@ public class AvatarRendererMod implements ModInitializer {
         });
 
         CommandRegistrationCallback.EVENT.register((commandDispatcher, commandBuildContext, commandSelection) -> {
-            commandDispatcher.register(Commands.literal("avatar").requires(x -> x.hasPermission(4) || !x.getServer().isDedicatedServer()).then(Commands.argument("player-name", StringArgumentType.greedyString()).executes(context -> {
+            commandDispatcher.register(Commands.literal("avatar").requires(x -> x.permissions().hasPermission(new Permission.HasCommandLevel(PermissionLevel.OWNERS)) || !x.getServer().isDedicatedServer()).then(Commands.argument("player-name", StringArgumentType.greedyString()).executes(context -> {
                 String playerName = StringArgumentType.getString(context, "player-name");
 
                 Component parsed = Placeholders.parseText(TextNode.of("%avatar-renderer:avatar " + playerName + "%"), PlaceholderContext.of(context.getSource().getPlayer()));
